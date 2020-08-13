@@ -10,3 +10,4 @@ And after enable module in magento
 `bin/magento mo:en Robo_CustomerIndexerFix`
 
 
+Issue reported here: https://github.com/magento/magento2/issues/19469
