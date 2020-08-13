@@ -1,0 +1,38 @@
+{
+  "name": "robolv/magento-customer-indexer-fix",
+  "description": "Magento customers got reindexed each time when doing setup upgrade, this fix implements fix from magento 2.4",
+  "keywords": [
+    "magento2",
+    "module",
+    "fix",
+    "customer",
+    "recuring",
+    "index",
+    "reindex",
+    "flat"
+  ],
+  "support": {
+    "email": "torengo120@gmail.com"
+  },
+  "require": {
+    "magento/magento2-base": "^2.3",
+  },
+  "type": "magento2-module",
+  "authors": [
+    {
+      "name": "Rihards Stasans",
+      "email": "torengo120@gmail.com"
+    }
+  ],
+  "license": [
+    "OSL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "src/Robo/CustomerIndexerFix/registration.php"
+    ],
+    "psr-4": {
+      "Robo\\CustomerIndexerFix\\": "src/Robo/CustomerIndexerFix/"
+    }
+  }
+}
