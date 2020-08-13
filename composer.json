@@ -15,7 +15,7 @@
     "email": "torengo120@gmail.com"
   },
   "require": {
-    "magento/magento2-base": "^2.3",
+    "magento/magento2-base": "^2.3"
   },
   "type": "magento2-module",
   "authors": [
