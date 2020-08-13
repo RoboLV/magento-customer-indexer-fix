@@ -1,5 +1,5 @@
 {
-  "name": "robolv/magento-customer-indexer-fix",
+  "name": "robo/magento-customer-indexer-fix",
   "description": "Magento customers got reindexed each time when doing setup upgrade, this fix implements fix from magento 2.4",
   "keywords": [
     "magento2",
